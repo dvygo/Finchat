@@ -1,4 +1,15 @@
 /* Layout wrapper */
+@font-face {
+  font-family: 'Urbane';
+  src: url('/fonts/Urbane-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+* {
+  font-family: 'Urbane', sans-serif !important;
+  font-weight: bold !important;
+}
+
 .app-container {
   position: relative;
   height: 100vh;
@@ -115,14 +126,15 @@
   }
 }
 
-hhtml, body, #root {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  font-weight: 700; /* or 600 for slightly less bold */
+html, body, #root {
+  font-family: 'Urbane', sans-serif;
+  font-weight: bold;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
 }
+
 
 .title-slide-in {
   opacity: 0;
