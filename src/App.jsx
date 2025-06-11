@@ -14,7 +14,7 @@ function App() {
         <h1 className="title-slide-in">Finchat AI Bot</h1>
         <div className="card">
           <a href="https://finchat-ai.streamlit.app" target="_blank" rel="noopener noreferrer">
-            <button>Launch Finchat App</button>
+            <button>Launch</button>
           </a>
         </div>
       </div>
