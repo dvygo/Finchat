@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 /* Layout wrapper */
 .app-container {
   position: relative;
@@ -116,14 +115,15 @@
   }
 }
 
-html, body, #root {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700; /* bold */
+hhtml, body, #root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  font-weight: 700; /* or 600 for slightly less bold */
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
 }
+
 .title-slide-in {
   opacity: 0;
   transform: translateX(-50px);
